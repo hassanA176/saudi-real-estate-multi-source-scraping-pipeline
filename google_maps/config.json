@@ -1,0 +1,40 @@
+{
+  "shared_db_path": "",
+  "locations_file": "saudi_locations.json",
+  "output_directory": "runtime/maps_logs",
+  "headless": false,
+  "window_width": 1180,
+  "window_height": 630,
+  "ui_scale": 0.8,
+  "seconds_between_scrolls": 0.85,
+  "stall_seconds": 12,
+  "max_recoveries": 3,
+  "feed_timeout_seconds": 20,
+  "pause_after_search_seconds": 10,
+  "pause_after_full_cycle_seconds": 1800,
+  "delay_between_details_seconds": 1.5,
+  "retry_failed_after_hours": 2,
+  "retry_no_images_after_hours": 24,
+  "recycle_browser_every_queries": 12,
+  "include_region_level_queries": true,
+  "category_searches": {
+    "شاليه": [
+      "شاليهات للايجار في {place}"
+    ],
+    "مخيم": [
+      "مخيمات للايجار في {place}"
+    ],
+    "استوديو": [
+      "استوديو للايجار اليومي في {place}",
+      "استوديو للايجار الشهري في {place}"
+    ],
+    "شقة": [
+      "شقق مفروشة للايجار اليومي في {place}",
+      "شقق للايجار الشهري في {place}"
+    ]
+  },
+  "pause_mode": "first_query_only",
+  "enable_checkpoint": true,
+  "delay_between_searches_seconds": 3.0,
+  "max_seconds_without_new_links": 300
+}

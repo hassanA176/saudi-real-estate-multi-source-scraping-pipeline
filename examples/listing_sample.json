@@ -1,0 +1,24 @@
+{
+  "source": "example_source",
+  "source_listing_id": "demo-001",
+  "property_type": "شقة",
+  "purpose": "إيجار",
+  "listing_url": "https://example.invalid/listing/demo-001",
+  "title": "Example listing",
+  "price": 2500,
+  "price_text": "2,500 ريال",
+  "rent_period": "شهري",
+  "area": 120,
+  "region": "الرياض",
+  "city": "الرياض",
+  "district": "حي تجريبي",
+  "phone": null,
+  "description": "Synthetic portfolio sample only.",
+  "features": [
+    "مصعد",
+    "موقف"
+  ],
+  "images": [
+    "https://example.invalid/images/1.jpg"
+  ]
+}

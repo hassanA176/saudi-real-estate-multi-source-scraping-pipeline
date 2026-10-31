@@ -1,0 +1,29 @@
+# Secrets / authenticated browser state
+.env
+sessions/
+.haraj_browser_profile/
+
+# Production data
+*.db
+*.sqlite
+*.sqlite3
+data/
+runtime/
+maps_production_logs/
+*.csv
+*.log
+*.png
+*.jpg
+*.jpeg
+*.bin
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+venv/
+
+# OS / editor
+.DS_Store
+Thumbs.db
